@@ -40,7 +40,7 @@
   &sys_reset    &none         &none             &none           &none                     &kp ESCAPE     &kp HOME  &kp UP_ARROW  &kp END      &kp BACKSPACE
   &sk LCTRL     &sk LEFT_ALT  &sk LEFT_COMMAND  &sk LEFT_SHIFT  &sk LC(RA(LEFT_SHIFT))    &kp PAGE_UP    &kp LEFT  &kp DOWN      &kp RIGHT    &kp TAB
   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_PRV      &bt BT_NXT                &kp PAGE_DOWN  &kp DEL   &kp K_COPY    &kp K_PASTE  &kp LA(BACKSPACE)
-                              &trans            &sl 1           &none                     &lt 3 ENTER    &trans    &trans
+                              &trans            &tog 1          &none                     &lt 3 ENTER    &trans    &trans
             >;
         };
 
@@ -55,7 +55,7 @@
   &kp LS(EXCL)  &kp LS(PLUS)  &kp LS(LBRC)  &kp LS(RBRC)  &kp LS(STAR)     &kp LS(CARET)  &kp LS(TILDE)  &kp EQUAL  &kp BSLH  &kp LS(PRCNT)
   &kp LS(AMPS)  &kp LS(DLLR)  &kp LS(LPAR)  &kp LS(RPAR)  &kp LS(QMARK)    &kp LS(DQT)    &kp SQT        &kp COMMA  &kp DOT   &kp SEMI
   &kp LS(PIPE)  &kp MINUS     &kp LS(LT)    &kp LS(GT)    &kp FSLH         &kp LS(COLON)  &kp LS(UNDER)  &kp LBKT   &kp RBKT  &kp LS(POUND)
-                              &trans        &trans        &lt 3 SPACE      &none          &sl 2          &trans
+                              &trans        &trans        &lt 3 SPACE      &none          &tog 2         &trans
             >;
         };
 
@@ -64,7 +64,7 @@
   &trans     &trans        &trans            &kp PLUS        &kp ASTERISK              &kp ESCAPE      &mt F7 N7        &mt F8 N8        &mt F9 N9        &kp BACKSPACE
   &sk LCTRL  &sk LEFT_ALT  &sk LEFT_COMMAND  &sk LEFT_SHIFT  &sk LA(LC(LEFT_SHIFT))    &mt F11 COMMA   &mt F4 NUMBER_4  &mt F5 N5        &mt F6 NUMBER_6  &mt F10 N0
   &trans     &trans        &trans            &kp MINUS       &kp SLASH                 &mt F12 PERIOD  &mt F1 NUMBER_1  &mt F2 NUMBER_2  &mt F3 NUMBER_3  &kp ENTER
-                           &trans            &sl 3           &none                     &none           &sl 3            &trans
+                           &trans            &tog 3          &none                     &none           &tog 3           &trans
             >;
         };
     };
