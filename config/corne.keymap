@@ -11,6 +11,110 @@
 / {
     chosen { zmk,matrix_transform = &five_column_transform; };
 
+    combos {
+        compatible = "zmk,combos";
+
+        comma {
+            bindings = <&kp COMMA>;
+            key-positions = <13 12>;
+        };
+
+        dot {
+            bindings = <&kp PERIOD>;
+            key-positions = <13 12 11>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <11 12>;
+        };
+
+        at {
+            bindings = <&kp AT>;
+            key-positions = <10 11 12>;
+        };
+
+        slash {
+            bindings = <&kp SLASH>;
+            key-positions = <23 22>;
+        };
+
+        quote {
+            bindings = <&kp SQT>;
+            key-positions = <16 17>;
+        };
+
+        excl {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <16 17 18>;
+        };
+
+        semi {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <19 18>;
+        };
+
+        colon {
+            bindings = <&kp COLON>;
+            key-positions = <25 26>;
+        };
+
+        amp {
+            bindings = <&kp AMPERSAND>;
+            key-positions = <26 27 28>;
+        };
+
+        par1 {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <22 21>;
+        };
+
+        par2 {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <27 28>;
+        };
+
+        dash {
+            bindings = <&kp MINUS>;
+            key-positions = <17 18>;
+        };
+
+        eq {
+            bindings = <&kp EQUAL>;
+            key-positions = <17 18 19>;
+        };
+
+        dv {
+            bindings = <&kp PERCENT>;
+            key-positions = <12 23>;
+        };
+
+        hash {
+            bindings = <&kp HASH>;
+            key-positions = <14 15>;
+        };
+
+        dollar {
+            bindings = <&kp DOLLAR>;
+            key-positions = <13 16>;
+        };
+
+        ast {
+            bindings = <&kp ASTERISK>;
+            key-positions = <23 22 21>;
+        };
+
+        caret {
+            bindings = <&kp CARET>;
+            key-positions = <12 17>;
+        };
+
+        screen {
+            bindings = <&kp LG(LS(NUMBER_4))>;
+            key-positions = <21 20>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
