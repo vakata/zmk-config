@@ -56,7 +56,7 @@
 
         colon {
             bindings = <&kp COLON>;
-            key-positions = <25 26>;
+            key-positions = <26 27>;
         };
 
         amp {
