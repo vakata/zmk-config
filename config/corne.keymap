@@ -156,10 +156,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-  &kp LS(EXCL)  &kp LS(PLUS)  &kp LS(LBRC)  &kp LS(RBRC)  &kp LS(STAR)     &kp LS(CARET)  &kp LS(TILDE)  &kp EQUAL  &kp BSLH  &kp LS(PRCNT)
-  &kp LS(AMPS)  &kp LS(DLLR)  &kp LS(LPAR)  &kp LS(RPAR)  &kp LS(QMARK)    &kp LS(DQT)    &kp SQT        &kp COMMA  &kp DOT   &kp SEMI
-  &kp LS(PIPE)  &kp MINUS     &kp LS(LT)    &kp LS(GT)    &kp FSLH         &kp LS(COLON)  &kp LS(UNDER)  &kp LBKT   &kp RBKT  &kp LS(POUND)
-                              &trans        &trans        &lt 3 SPACE      &none          &tog 2         &trans
+  &kp LS(EXCL)  &kp LS(LEFT_BRACE)        &kp LS(RIGHT_BRACE)        &kp PLUS        &kp LS(STAR)     &kp LS(CARET)  &kp LS(TILDE)  &kp EQUAL  &kp BSLH  &kp LS(PRCNT)
+  &kp LS(AMPS)  &kp LS(LEFT_PARENTHESIS)  &kp LS(RIGHT_PARENTHESIS)  &kp LS(DOLLAR)  &kp LS(QMARK)    &kp LS(DQT)    &kp SQT        &kp COMMA  &kp DOT   &kp SEMI
+  &kp LS(PIPE)  &kp LS(LESS_THAN)         &kp LS(GREATER_THAN)       &kp MINUS       &kp FSLH         &kp LS(COLON)  &kp LS(UNDER)  &kp LBKT   &kp RBKT  &kp LS(POUND)
+                                          &trans                     &trans          &lt 3 SPACE      &none          &tog 2         &trans
             >;
         };
 
