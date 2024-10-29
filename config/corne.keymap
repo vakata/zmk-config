@@ -30,7 +30,7 @@
         };
 
         at {
-            bindings = <&kp AT>;
+            bindings = <&kp AT_SIGN>;
             key-positions = <10 11 12>;
         };
 
