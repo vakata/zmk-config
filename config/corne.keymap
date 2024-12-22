@@ -97,7 +97,7 @@
 
         dollar {
             bindings = <&kp DOLLAR>;
-            key-positions = <16 7>;
+            key-positions = <2 13>;
         };
 
         ast {
@@ -107,7 +107,7 @@
 
         caret {
             bindings = <&kp CARET>;
-            key-positions = <13 2>;
+            key-positions = <16 7>;
         };
 
         screen {
