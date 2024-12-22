@@ -92,12 +92,12 @@
 
         hash {
             bindings = <&kp HASH>;
-            key-positions = <14 15>;
+            key-positions = <0 1>;
         };
 
         dollar {
             bindings = <&kp DOLLAR>;
-            key-positions = <13 16>;
+            key-positions = <16 7>;
         };
 
         ast {
@@ -107,7 +107,7 @@
 
         caret {
             bindings = <&kp CARET>;
-            key-positions = <12 17>;
+            key-positions = <13 2>;
         };
 
         screen {
