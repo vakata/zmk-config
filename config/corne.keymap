@@ -160,7 +160,7 @@
         };
 
         Changeinp {
-            bindings = <&kp LC(LS(I))>;
+            bindings = <&kp GLOBE>;
             key-positions = <13 16>;
         };
     };
